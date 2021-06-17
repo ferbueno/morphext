@@ -67,12 +67,12 @@ Morphext allows the following options to alter the behaviour of the plugin:
 
 Option | Type | Default | Description
 --- | --- | --- | ---
-animation | `string` | `bounceIn` | The [in] animation type. Refer to [Animate.css][animatecss] for a list of available animations.
-speed | `int` | `2000` | The delay between the changing of each phrase in milliseconds.
-autoInit | `bool` | `true` | If the animation should auto start
+animation | `String` | `bounceIn` | The [in] animation type. Refer to [Animate.css][animatecss] for a list of available animations.
+speed | `Integer` | `2000` | The delay between the changing of each phrase in milliseconds.
+autoInit | `Boolean` | `true` | If the animation should auto start
 phrases | `Array<String>` | [] | The array of phrases to rotate around
-animateCssVersion | `string` | `4.1.1` | The version of Animate CSS to import
-autoAttachAnimateCss | `bool` | `true` | If the library should auto attach Animate CSS
+animateCssVersion | `String` | `4.1.1` | The version of Animate CSS to import
+autoAttachAnimateCss | `Boolean` | `true` | If the library should auto attach Animate CSS
 
 The plugin relies heavily on [Animate.css][animatecss] for its [smooth, high performance animations](http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/) to transition between each phrase.
 
@@ -84,7 +84,7 @@ The plugin relies heavily on [Animate.css][animatecss] for its [smooth, high per
 ```
 
 
-"Issues"
+Issues
 ----------
 
 Issue | Description | Solution
