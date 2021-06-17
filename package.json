@@ -1,0 +1,33 @@
+{
+  "name": "morphext",
+  "version": "1.0.0",
+  "description": "An adaptation of Morphext using Animate CSS 4",
+  "main": "index.js",
+  "scripts": {
+    "build:vanilla": "uglifyjs vanilla/morphext.js -o vanilla/morphext.min.js -c -m",
+    "build:jquery": "uglifyjs jQuery/morphext.js -o jQuery/morphext.min.js -c -m",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferbueno/morphext.git"
+  },
+  "keywords": [
+    "animation",
+    "css",
+    "morph",
+    "text",
+    "rotation",
+    "rotate",
+    "jquery"
+  ],
+  "author": "Fernando Bueno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ferbueno/morphext/issues"
+  },
+  "homepage": "https://github.com/ferbueno/morphext#readme",
+  "dependencies": {
+    "uglify-js": "^3.13.9"
+  }
+}
